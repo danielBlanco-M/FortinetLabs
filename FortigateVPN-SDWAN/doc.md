@@ -4,7 +4,7 @@
 
 El objetivo del laboratorio consiste en que un cliente **Ubuntu** desde una LAN interna se comunique con internet a través de su puerta de enlace (**FortiGate Interno**) y que este tenga configurado una **SD-WAN** que conste de dos miembros VPN que conecten al otro par **FortiGate Perimetral**. Este último proporcionará la ruta de salida a internet ya que se conecta directamente con la nube (mi red desde la que hago este laboratorio).
 
-![alt text](/img/topology.png)
+![alt text](img/topology.png)
 
 ---
 
@@ -28,7 +28,7 @@ En el FortiGate perimetral esto se cambiaría. Además, en la Fase 2 se configur
 
 Para la interfaz `To_Lan2` se hace exactamente lo mismo excepto la IP del gateway que, al ser una interfaz distinta, la IP también lo es.
 
-![alt text](image.png)
+![alt text](img/VPN3.png)
 
 ---
 
