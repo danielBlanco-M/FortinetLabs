@@ -11,6 +11,8 @@ El propósito del laboratorio es simular la interconexión entre dos empresas qu
 * **Direccionamiento Ficticio:** La comunicación a través de la VPN se realiza mediante IPs mapeadas (ficticias).
 * **Seguridad:** Uso de VIPs para evitar la exposición directa de puertos estándar.
 
+![alt text](img/topology.png)
+
 ## 2. Configuración del Lado del Servidor (Apache-Side)
 
 ### 2.1. Configuración de Virtual IP (VIP)
